@@ -25,7 +25,7 @@ throw new Error('fill the form')
 
       // recive backebd responce then forword work
       if (res.status == 200) {
-        window.alert('Sign in successful');
+        window.alert('Sign in is successful');
         setFormData({ email: "", pass: "" });
         route.push('/about')
       } 
